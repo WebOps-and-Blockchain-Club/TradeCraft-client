@@ -1,0 +1,61 @@
+.trading-card{
+   border: 1px solid rgb(57, 57, 57);
+   height: 490px;
+   width: 400px;
+   border-radius: 10px;
+
+}
+.input-fields-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.lower-container{
+    display: flex;
+    flex-direction: column;
+}
+.buttons-container{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.balance{
+    display: flex;
+    flex-direction: row;
+}
+.purchase-button{
+    border-radius: 10px;
+    background-color: #45F6CCff;
+    color: #10362Dff;
+    height: 40px;
+    width: 300px;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+
+.buy-sell-button{
+    padding-top : 100px;
+    margin-right: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+.buy-sell{
+    
+    height: 50PX;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+
+
+}

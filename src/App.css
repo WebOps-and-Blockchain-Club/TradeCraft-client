@@ -1,0 +1,137 @@
+/* App.css */
+/* App.css */
+/* styles.css */
+
+
+body {
+  margin: 0;
+  background-color: rgb(20, 19, 19);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.watchlist-container{
+  width: 400px;
+  
+}
+.light-black{
+  background-color: rgb(20, 19, 19);
+}
+
+.watchlist-contents
+{
+  padding: 20px;
+  height: 60px;
+}
+.hover-white:hover{
+  background-color: white;
+}
+.index-container{
+  width: 90%;
+}
+.mp71ProductCard{
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ margin: 20px;
+ border-radius: 10px;
+
+}
+h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+.hover:text-white:hover{
+  color: white;
+}
+.hover-zoom {
+  transition: transform 0.3s ease; /* Smooth transition for the transform */
+}
+
+.hover-zoom:hover {
+  transform: scale(1.03); /* Scale up by 5% on hover */
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-container{
+  background-color: rgb(39, 37, 37);
+  margin: 50px;
+  
+}
+
+.App-header {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Container {
+  display: flex;
+  width: 100%;
+}
+
+.left-container {
+  margin-left: 35px;
+  width: 65%;
+  padding: 10px;
+}
+
+.right-container {
+  width: 35%;
+  padding: 10px;
+  margin-right: 70px;
+}
+
+.index-container,
+.most-bought,
+.products,
+.top-gainers,
+.top-losers {
+  margin-bottom: 20px;
+ 
+}
+
+
+
+.index-card-container,
+.product-card-container {
+  display: flex;
+  gap: 10px;
+  
+}
+.index-card-container{
+  flex-direction: row;
+  justify-content: space-between;
+  
+
+}
+.hover-eerie-black:hover{
+  background-color: rgb(37, 34, 34);
+}
+.rotate-icon {
+  transform: rotate(180deg);
+  transition: transform 0.3s;
+}
+
+h2{
+  font-size: 20px;
+}
+.black-border{
+  border : 1px solid rgb(57, 57, 57);
+}
+.light-black{
+  background-color: #1D1F20ff;
+}
+
+.right-container .card {
+  margin-bottom: 10px;
+}

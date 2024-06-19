@@ -1,0 +1,60 @@
+.valign-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.dashboardTabsLine {
+  height: 3px;
+  background-color: #45F6CCff; /* Highlight color */
+  position: absolute;
+  bottom: 0;
+  transition: all 0.3s ease;
+}
+
+.dashboardTabsText {
+  padding: 0 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.bodyXLarge {
+  font-size: 1.25rem; /* Adjust as needed */
+}
+
+.dashboardTabsTextActive {
+  color: #45F6CCff; /* Highlight text color */
+}
+
+.dashboardTabsText {
+  color: #aaa; /* Default text color */
+}
+.valign-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.dashboardTabsLine {
+  height: 3px;
+  background-color: #45F6CCff; /* Highlight color */
+  position: absolute;
+  bottom: 0;
+  transition: all 0.3s ease;
+}
+
+.dashboardTabsText {
+  padding: 0 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.bodyXLarge {
+  font-size: 1.25rem; /* Adjust as needed */
+}
+
+.dashboardTabsTextActive {
+  color: #45F6CCff; /* Highlight text color */
+}
+
+.dashboardTabsText {
+  color: #aaa; /* Default text color */
+}
